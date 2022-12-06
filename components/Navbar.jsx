@@ -21,7 +21,7 @@ const Navbar = () => {
     <div className="fixed w-full h-20 z-[100]">
       <div className=" flex justify-between items-center w-full h-full bg-[#28282B] px-5">
         <Link href="/">
-          <a>
+          
             <Image
               src={NavLogo}
               alt="/"
@@ -29,7 +29,7 @@ const Navbar = () => {
               height={50}
               className="cursor-pointer"
             />
-          </a>
+          
         </Link>
 
         <div>
