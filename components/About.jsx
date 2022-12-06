@@ -5,13 +5,12 @@ import AboutImg from "../public/assets/about.jpg";
 const About = () => {
   return (
     <div id="about" className="max-w-[1240px] h-auto pt-20 p-4 m-auto">
-      <div className="items-center justify-center">
-        <div className="grid lg:grid-cols-2 gap-5">
-          <div className="flex w-9/12 h-auto m-auto lg:w-full">
+        <div className="grid md:grid-cols-2 gap-5">
+          <div className="flex justify-center w-7/12 h-auto m-auto md:w-8/12">
             <Image src={AboutImg} alt="/" />
           </div>
           <div>
-            <h1 className="uppercase">About Jason</h1>
+          <h1 className="uppercase pb-4">About Jason</h1>
             <p className="font-medium text-base text-justify leading-relaxed pt-2">
               I am passionate about understanding user problems
               and grateful that there is a profession where I can both understand and solve them.
@@ -37,7 +36,6 @@ const About = () => {
             </p>
           </div>
         </div>
-      </div>
     </div>
   );
 };
