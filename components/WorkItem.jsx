@@ -15,11 +15,12 @@ const WorkItem = ({ title, role, backgroundImg, projectUrl }) => {
           {role}
         </h3>
         <div className="text-center">
-        <a href={projectUrl}>
-          <button className="text-center rounded-none bg-[#D6D6DA] hover:bg-[#8FC4EE] text-[#28282B] font-semibold hover:text-[#28282B] py-2 px-4 border border-[#28282B] hover:border-transparent cursor-pointer">
+        <Link href={projectUrl}>
+        <button className="text-center rounded-none bg-[#D6D6DA] hover:bg-[#8FC4EE] text-[#28282B] font-semibold hover:text-[#28282B] py-2 px-4 border border-[#28282B] hover:border-transparent cursor-pointer">
             More Info
           </button>
-        </a>
+              </Link>
+
         </div>
         </div>
       </div>
