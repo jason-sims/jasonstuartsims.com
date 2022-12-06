@@ -72,9 +72,9 @@ const Navbar = () => {
         >
           <div>
             <div className="p-5 flex w-full items-center justify-between">
-              <a href="/">
+              <Link href="/">
                 <h1 className="uppercase text-[#28282B] text-lg">Jason Sims</h1>
-              </a>
+              </Link>
               <div
                 onClick={handleNav}
                 className="border-2 border-[#28282B] p-3 cursor-pointer hover:scale-105 duration-300"
