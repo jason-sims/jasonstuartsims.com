@@ -5,8 +5,8 @@ import AboutImg from "../public/assets/about.jpg";
 const About = () => {
   return (
     <div id="about" className="max-w-[1240px] h-auto pt-20 p-4 m-auto">
-        <div className="grid md:grid-cols-2 gap-5">
-          <div className="flex justify-center w-7/12 h-auto m-auto md:w-8/12">
+        <div className="grid lg:grid-cols-2 gap-5">
+          <div className="w-5/12 h-auto m-auto sm:w-5/12 lg:w-8/12">
             <Image src={AboutImg} alt="/" />
           </div>
           <div>
