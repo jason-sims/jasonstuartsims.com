@@ -7,7 +7,7 @@ import WorkItem from "./WorkItem";
 
 const SelectWork = () => {
   return (
-    <div id="selectwork" className="max-w-[1240px] h-auto pt-20 p-4 m-auto">
+    <div id="selectwork" className="max-w-[1240px] h-auto pt-20 p-6 m-auto">
         <h1 className="uppercase py-5">Select Work</h1>
         <div className="grid md:grid-cols-2 gap-5">
           <WorkItem

@@ -3,8 +3,6 @@ import Image from "next/image";
 import React, { useState } from "react";
 import {
   AiOutlineClose,
-  AiOutlineMail,
-  AiOutlineFileText,
   AiOutlineMenu,
 } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
@@ -33,7 +31,9 @@ const Navbar = () => {
         </Link>
 
         <div>
+                
           <ul className="hidden md:flex">
+         
             <Link href="/#about">
               <li className="hover:border-b-2 hover:border-b-[#8FC4EE] mx-5 font-medium text-lg">
                 About
@@ -49,7 +49,9 @@ const Navbar = () => {
                 Contact
               </li>
             </Link>
+            
           </ul>
+        
           <div onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={25} />
           </div>
@@ -95,12 +97,7 @@ const Navbar = () => {
               <Link href="mailto:jason_sims84@hotmail.com">
                 <li className="py-4 hover:border-b-2 hover:border-[#8FC4EE]">Contact</li>
               </Link>
-              <Link
-                href="https://drive.google.com/file/d/1grBfVWPB216OC_E4e8WpLWF8XSrml9t5/view?usp=sharing"
-                target="_blank"
-              >
-                <li className="py-4 hover:border-b-2 hover:border-[#8FC4EE] ">Resume</li>
-              </Link>
+              
             </ul>
             </div>
             <div className="mt-10 flex space-x-10 justify-left">
