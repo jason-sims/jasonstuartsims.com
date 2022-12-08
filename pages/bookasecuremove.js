@@ -13,7 +13,7 @@ export default function BookaSecureMove() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Navbar />
-        <div id="about" className="max-w-[1240px] h-auto pt-40 p-6 m-auto sm:w-9/12 md:w-7/12">
+        <div id="about" className="max-w-[1240px] h-auto pt-20 p-6 m-auto sm:w-9/12 md:w-7/12 md:pt-40">
           <div>
           <h1 className="uppercase pb-10">Book a Secure Move</h1>
           <div className=" h-auto m-auto">
