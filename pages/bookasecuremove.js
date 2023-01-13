@@ -24,7 +24,7 @@ export default function BookaSecureMove() {
             <h2 className="uppercase py-4">Background
             </h2>
             <p className="font-medium text-base text-justify leading-relaxed py-2">
-            Since 1994, the Prisoner Escort and Custody Services  (PECS) contract has outsourced the secure transport of prisoners across England & Wales including: adults; children and young people to and from Police Stations; Courts; Prisons; Secure Training Centres (STCs); and Secure Children’s Schools (SCHs).
+            Since 1994, the Prisoner Escort and Custody Services  (PECS) contract has outsourced the secure transport of prisoners across England & Wales including: adults; children and young people to and from Police Stations; Courts; Prisons; Secure Training Centres (STCs); and Secure Children's Schools (SCHs).
 On average 622,000 moves occur over any given year across the country, covering around 10.5 million miles of distance. 
 </p>
 <p className="font-medium text-base text-justify leading-relaxed py-2">
@@ -172,7 +172,7 @@ A large number of reports were developed over time to support compliance reporti
             </p>
             <p className="font-medium text-base text-justify leading-relaxed pb-4">
               
-The work was awarded 'Collaboration of the Year’ and ‘Innovation of the Year’ awards by MOJ Project Delivery function in 2021.
+The work was awarded 'Collaboration of the Year' and 'Innovation of the Year' awards by MOJ Project Delivery function in 2021.
 </p>
 
 <blockquote className="p-4 italic bg-neutral-100 text-neutral-600 quote ">
