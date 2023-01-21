@@ -6,11 +6,13 @@ const Main = () => {
     <div className="w-full p-5 text-left md:pl-12">
       <div className="max-w-[1240px] h-screen flex justify-start items-center">
         <div>
-          <p className="uppercase text-3xl py-2">Hello! I&apos;m</p>
+          <p className="uppercase text-2xl">Hello! I&apos;m</p>
           <h1 className="uppercase text-8xl py-2">Jason</h1>
           <h1 className="uppercase text-8xl py-2">Sims</h1>
-          <p className="uppercase text-3xl py-2">Product Manager | Developer</p>
-          <div className="flex py-2 space-x-10 justify-left">
+          <p className="uppercase text-2xl py-3">
+            Product Manager | Web Developer
+          </p>
+          <div className="flex py-3 space-x-10 justify-left">
             <a
               href="https://www.linkedin.com/in/jasonstuartsims/"
               target="_blank"
