@@ -6,19 +6,24 @@ import WorkItem from './WorkItem';
 const SelectWork = () => {
   return (
     <div id="selectwork" className="max-w-[1240px] h-auto pt-20 p-6 m-auto">
-      <h1 className="uppercase py-5">Select Work</h1>
-      <div className="grid md:grid-cols-2 gap-5">
+      <h1 className="uppercase pb-8 text-center">Select Work</h1>
+
+      <div className="grid gap-5 place-items-center ">
         <WorkItem
           title="Portfolio"
           backgroundImg={portfolioImg}
           projectUrl="/portfolio"
-          role="Developer"
+          role="Web Developer"
+          summary="My portfolio site built using Next.js & Tailwind"
+          buttoncta="Find out more"
         />
         <WorkItem
           title="Book a Secure Move"
           backgroundImg={mojImg}
           projectUrl="/bookasecuremove"
           role="Senior Product Manager"
+          summary="A service to request secure prisoner moves, complete complex risk assesments and monitor prisoner events in real time."
+          buttoncta="Read the case study"
         />
       </div>
     </div>
