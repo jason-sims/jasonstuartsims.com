@@ -10,7 +10,7 @@ const About = () => {
           <Image src={AboutImg} alt="/" />
         </div>
         <div>
-          <h1 className="uppercase pb-4">About Jason</h1>
+          <h1 className="uppercase pb-8">About Jason</h1>
           <p className="font-medium text-base text-justify leading-relaxed pt-2">
             I am passionate about understanding user problems and grateful that
             there is a profession where I can both understand and solve them.

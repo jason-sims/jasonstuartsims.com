@@ -2,26 +2,38 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-const WorkItem = ({ title, role, backgroundImg, projectUrl }) => {
+const WorkItem = ({
+  title,
+  role,
+  backgroundImg,
+  projectUrl,
+  summary,
+  buttoncta,
+}) => {
   return (
-    <div className="relative flex h-auto w-full border border-white group hover:bg-gradient-to-r from-[#28282B] to-[#F5F5F5]">
-      <Image className="group-hover:opacity-5" src={backgroundImg} alt="/" />
-      <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-        <div className="justify-center content-center">
-          <h2 className="text-[#28282B] uppercase text-4xl text-center">
-            {title}
-          </h2>
-          <h3 className="text-[#28282B] uppercase pb-4 pt-2 text-center">
-            {role}
-          </h3>
-          <div className="text-center">
-            <Link href={projectUrl}>
-              <button className="text-center rounded-none bg-[#D6D6DA] hover:bg-[#8FC4EE] text-[#28282B] font-semibold hover:text-[#28282B] py-2 px-4 border border-[#28282B] hover:border-transparent cursor-pointer">
-                More Info
-              </button>
-            </Link>
-          </div>
+    <div className="max-w-md bg-[#B8D8D8] overflow-hidden shadow-md ">
+      <div className="px-3 py-4">
+        <Image className="w-full rounded border" src={backgroundImg} alt="/" />
+      </div>
+      <div className="px-6 py-1">
+        <span className="mr-2 mb-2 text-sm font-semibold text-transform: uppercase text-[#1b2213]">
+          {role}
+        </span>
+      </div>
+
+      <div className="px-6 py-1">
+        <div className="mb-2 text-2xl font-bold text-transform: uppercase text-[#1b2213]">
+          {title}
         </div>
+        <p className="font-medium text-base text-[#1b2213]">{summary}</p>
+      </div>
+
+      <div className="px-3 py-4">
+        <Link href={projectUrl}>
+          <button className="w-full text-sm text-transform: uppercase rounded bg-[#3d3d3e] py-2 px-4 text-[#fff4eb] hover:bg-[#4f6367]">
+            {buttoncta}
+          </button>
+        </Link>
       </div>
     </div>
   );
