@@ -92,16 +92,24 @@ export default function BookaSecureMove() {
             quickly. The service was complex covering multiple business areas:
           </p>
 
-          <table className="table-fixed text-left py-2">
+          <table className="table-fixed text-left pb-2 pt-10">
             <thead>
               <tr>
-                <th className="py-4">Component</th>
-                <th className="py-4">Book a secure move benefits</th>
+                <th className="py-4 uppercase">Component</th>
+                <th className="py-4 uppercase">Book a secure move benefits</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>Move requests</td>
+                <td className="py-2">
+                  Users can request moves and supply initial risk assessments
+                  via a single service as opposed to sending spreadsheets over
+                  email
+                </td>
+              </tr>
+              <tr>
+                <td>Population Management</td>
                 <td className="py-2">
                   Provide an overview of the current and projected prison
                   population and enable single and bulk transfer requests
@@ -140,7 +148,7 @@ export default function BookaSecureMove() {
               </tr>
               <tr>
                 <td>Billing & compliance data</td>
-                <td className="py-2">
+                <td className="pt-2 pb-10">
                   Provide a single source of truth for move requests against
                   authenticated HMPPS users. This would greatly reduce assurance
                   workload (approx 5,000 manually checked records month) and
