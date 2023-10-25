@@ -69,14 +69,16 @@ export default function Navbar() {
       <div
         className={
           nav
-            ? ' fixed left-0 top-0 w-[65%] sm:w-[65%] md:w-[45%] h-screen min-w-fit bg-[#F6FFF8] text-[#28282B] p-7 ease-in duration-500'
+            ? ' fixed left-0 top-0 w-1/5 min-h-full min-w-fit bg-[#F6FFF8] text-[#28282B] p-7 ease-in duration-500'
             : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
         }
       >
         <div>
           <div className="p-5 flex w-full items-center justify-between">
             <Link href="/">
-              <h1 className="uppercase text-[#28282B] text-lg">Jason Sims</h1>
+              <h1 className="pr-10 uppercase text-[#28282B] text-lg">
+                Jason Sims
+              </h1>
             </Link>
             <div
               onClick={handleNav}

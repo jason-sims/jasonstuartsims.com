@@ -1,21 +1,9 @@
-import Head from 'next/head';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 import GithubSocial from '../public/assets/ghsocial.png';
 import Image from 'next/image';
 
 export default function Portfolio() {
   return (
     <div>
-      <Head>
-        <title>Jason Sims</title>
-        <meta
-          name="description"
-          content="Jason Sims is a product manager and developer living in London, UK."
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <Navbar />
       <div
         id="about"
         className="max-w-[1240px] h-auto pt-20 p-6 m-auto sm:w-9/12 md:w-7/12 md:pt-40"
@@ -42,7 +30,6 @@ export default function Portfolio() {
           </p>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

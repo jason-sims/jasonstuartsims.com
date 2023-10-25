@@ -1,6 +1,3 @@
-import Head from 'next/head';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 import GeoVans from '../public/assets/geoameyvans.jpg';
 import Roadmap from '../public/assets/roadmap.png';
 import ApiGuide from '../public/assets/apiGuide.png';
@@ -9,15 +6,6 @@ import Image from 'next/image';
 export default function BookaSecureMove() {
   return (
     <div>
-      <Head>
-        <title>Jason Sims</title>
-        <meta
-          name="description"
-          content="Jason Sims is a product manager and developer living in London, UK."
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <Navbar />
       <div
         id="about"
         className="max-w-[1240px] h-auto pt-20 p-6 m-auto sm:w-9/12 md:w-7/12 md:pt-40"
@@ -305,7 +293,6 @@ export default function BookaSecureMove() {
           </p>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
