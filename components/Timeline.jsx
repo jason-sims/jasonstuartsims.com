@@ -28,7 +28,7 @@ const Timeline = () => {
       role: 'Senior Product Manager',
       date: 'Jun 22',
       summary:
-        'Conducted and delivered a product review of MyRAC for the Royal Automotive Club executive team as part of the Silverlake acquisition of RAC',
+        'Conducted and delivered a product review of MyRAC for the executive team as part of the Silverlake acquisition of the Royal Automotive Club',
     },
     {
       company: 'Talent | DfE',
