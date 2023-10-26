@@ -16,7 +16,7 @@ const navItems = [
     name: 'Select Work',
   },
   {
-    path: 'mailto:jason_sims84@hotmail.com',
+    path: 'mailto:jasonstuartsims@outlook.com',
     name: 'Contact',
   },
 ];
@@ -50,7 +50,7 @@ export default function Navbar() {
                 <Link
                   key={item.path}
                   className={
-                    'hover:border-b-2 hover:border-b-[#8FC4EE] mx-5 font-medium text-lg'
+                    'hover:border-b-2 hover:border-b-[#B8D8D8] mx-5 font-medium text-lg'
                   }
                   href={item.path}
                 >
@@ -69,7 +69,7 @@ export default function Navbar() {
       <div
         className={
           nav
-            ? ' fixed left-0 top-0 w-1/5 min-h-full min-w-fit bg-[#F6FFF8] text-[#28282B] p-7 ease-in duration-500'
+            ? ' fixed left-0 top-0 w-1/5 min-h-full min-w-fit bg-[#F6FFF8] text-[#28282B] pl-3 pt-3 ease-in duration-500'
             : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
         }
       >
@@ -82,7 +82,7 @@ export default function Navbar() {
             </Link>
             <div
               onClick={handleNav}
-              className="border-2 border-[#28282B] p-3 cursor-pointer hover:scale-105 duration-300"
+              className="border-2 border-[#28282B] p-2 cursor-pointer hover:scale-105 duration-300"
             >
               <AiOutlineClose />
             </div>
@@ -95,7 +95,7 @@ export default function Navbar() {
                 return (
                   <li
                     key={item.path}
-                    className={'py-5 hover:border-b-2 hover:border-[#8FC4EE]'}
+                    className={'py-5 hover:border-b-2 hover:border-[#B8D8D8]'}
                   >
                     <Link href={item.path}>
                       <span>{item.name}</span>
