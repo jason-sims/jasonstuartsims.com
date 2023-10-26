@@ -24,18 +24,18 @@ const Timeline = () => {
       summary: 'Spent time with my son & completed home renovations',
     },
     {
-      company: 'Futurice | Royal Automotive Club',
+      company: 'Futurice | RAC',
       role: 'Senior Product Manager',
       date: 'Jun 22',
       summary:
-        'Conducted and delivered a product review of MyRAC for the executive team as part of the Silverlake acquisition of RAC',
+        'Conducted and delivered a product review of MyRAC for the Royal Automotive Club executive team as part of the Silverlake acquisition of RAC',
     },
     {
-      company: 'Talent | Department for Education',
+      company: 'Talent | DfE',
       role: 'Lead Product Manager',
       date: 'Feb 22',
       summary:
-        'Led a pre-Discovery, delivering an options analysis for the implementation of a national Common Child Identifier',
+        'Led a pre-Discovery at Department for Education, delivering an options analysis for the implementation of a national Common Child Identifier',
     },
     {
       company: 'Talent',
@@ -52,7 +52,7 @@ const Timeline = () => {
         'Led delivery of the “Book a secure move” service from inception to live. The service digitised move requests, population management, risk & medical assessments replacing 2 legacy systems. Rolled the service out to c.25k users across 772 sites (prisons, police custody, youth estate, courts) resulting in over c.600k moves digitised yearly',
     },
     {
-      company: 'Understanding | Reed Elsevier ',
+      company: 'UR | Reed Elsevier ',
       role: 'Senior Product Manager',
       date: 'Mar 18',
       summary:
