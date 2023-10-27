@@ -7,7 +7,7 @@ const Timeline = () => {
       role: 'Lead Product Manager',
       date: 'Jun 23',
       summary:
-        'Leading delivery of the Navy Schedule Service & the Product Community of Practice',
+        'Leading delivery of the Navy Schedule Service & the Product Community of Practice.',
     },
 
     {
@@ -21,56 +21,56 @@ const Timeline = () => {
       company: 'Home',
       role: 'Dad',
       date: 'Sep 22',
-      summary: 'Spent time with my son & completed home renovations',
+      summary: 'Spent time with my son & completed home renovations.',
     },
     {
       company: 'Futurice | RAC',
       role: 'Senior Product Manager',
       date: 'Jun 22',
       summary:
-        'Conducted and delivered a product review of MyRAC for the executive team as part of the Silverlake acquisition of the Royal Automotive Club',
+        'Conducted and delivered a product review of MyRAC for the executive team as part of the Silverlake acquisition of the Royal Automotive Club.',
     },
     {
       company: 'Talent | DfE',
       role: 'Lead Product Manager',
       date: 'Feb 22',
       summary:
-        'Led a pre-Discovery at Department for Education, delivering an options analysis for the implementation of a national Common Child Identifier',
+        'Led a pre-Discovery at Department for Education, delivering an options analysis for the implementation of a national Common Child Identifier.',
     },
     {
       company: 'Talent',
       role: 'Head of Product',
       date: 'Apr 21',
       summary:
-        'Supported contract Product Managers, Business Analysts & Delivery Managers across multiple outcomes based contracts. Led multiple private and public (Digital Outcomes and Specialists framework) bids',
+        'Supported contract Product Managers, Business Analysts & Delivery Managers across multiple outcomes based contracts. Led multiple private and public (Digital Outcomes and Specialists framework) bids.',
     },
     {
       company: 'Talent | Ministry of Justice ',
       role: 'Senior Product Manager',
       date: 'Oct 18',
       summary:
-        'Led delivery of the “Book a secure move” service from inception to live. The service digitised move requests, population management, risk & medical assessments replacing 2 legacy systems. Rolled the service out to c.25k users across 772 sites (prisons, police custody, youth estate, courts) resulting in over c.600k moves digitised yearly',
+        'Led delivery of the “Book a secure move” service from inception to live. The service digitised move requests, population management, risk & medical assessments replacing 2 legacy systems. Rolled the service out to c.25k users across 772 sites (prisons, police custody, youth estate, courts) resulting in over c.600k moves digitised yearly.',
     },
     {
       company: 'UR | Reed Elsevier ',
       role: 'Senior Product Manager',
       date: 'Mar 18',
       summary:
-        'Led the microservices and recommender systems teams ensuring fresh papers achieved the most qualified peer-review acceptance. Migrated c1.5k journals from a legacy system & ran a targeted publication claims campaign achieving 3.5% claim increase',
+        'Led the microservices and recommender systems teams ensuring fresh papers achieved the most qualified peer-review acceptance. Migrated c1.5k journals from a legacy system & ran a targeted publication claims campaign achieving 3.5% claim increase.',
     },
     {
       company: 'psHEALTH',
       role: 'Product Manager',
       date: 'Oct 16',
       summary:
-        'Established (first hire) and delivered Advanced Referral & Triage (ART) from inception to launch in 12 months. ART provided consistent clinical pathway rules, NHS Spine integration (as FHIR SME) & RPA (Automation Anywhere) to automate patient registration/booking flows. Launched to 2 NHS trusts on GovCloud & 2 private orgs establishing a Single Point of Access delivering savings of approx £250k per 100k referrals',
+        'Established (first hire) and delivered Advanced Referral & Triage (ART) from inception to launch in 12 months. ART provided consistent clinical pathway rules, NHS Spine integration (as FHIR SME) & RPA (Automation Anywhere) to automate patient registration/booking flows. Launched to 2 NHS trusts on GovCloud & 2 private orgs establishing a Single Point of Access delivering savings of approx £250k per 100k referrals.',
     },
     {
       company: 'Telstra Health',
       role: 'Product Owner',
       date: 'Jan 14',
       summary:
-        'Led development of the National Health Services Directory (NHSD) & the Enterprise Health Provider Directory (EHPD) with included NHSD FHIR integration, Master Data Management, HL7 V2 & SAML support. Rolled out the EPHD to a large private hospital network (52 sites across 6 regions) within 6 months',
+        'Led development of the National Health Services Directory (NHSD) & the Enterprise Health Provider Directory (EHPD) with included NHSD FHIR integration, Master Data Management, HL7 V2 & SAML support. Rolled out the EPHD to a large private hospital network (52 sites across 6 regions) within 6 months.',
     },
   ];
 

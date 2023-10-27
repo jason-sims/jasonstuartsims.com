@@ -270,23 +270,23 @@ export default function BookaSecureMove() {
           </blockquote>
 
           <h2 className="uppercase py-4">Further reading</h2>
-          <p className="font-medium text-base text-justify leading-relaxed py-2">
+          <p className="font-medium hover:border-b-4 text-base text-justify leading-relaxed py-2">
             <a href="https://www.andrew-millar.co.uk/hmpps.html">
-              Andrew Millar outlined the design approach for the service
+              Andrew Millar outlined the design approach
             </a>
           </p>
-          <p className="font-medium text-base text-justify leading-relaxed py-2">
+          <p className="font-medium hover:border-b-4 text-base text-justify leading-relaxed py-2">
             <a href="https://www.gov.uk/government/news/prisoner-escort-contracts-awarded">
               Original contract award press release - GOV.UK
             </a>
           </p>
-          <p className="font-medium text-base text-justify leading-relaxed py-2">
+          <p className="font-medium hover:border-b-4 text-base text-justify leading-relaxed py-2">
             <a href="https://github.com/ministryofjustice/hmpps-book-secure-move-api/wiki">
               Book a secure move API documentation
             </a>
           </p>
 
-          <p className="font-medium text-base text-justify leading-relaxed py-2">
+          <p className="font-medium hover:border-b-4 text-base text-justify leading-relaxed py-2">
             <a href="https://github.com/ministryofjustice/hmpps-book-secure-move-frontend">
               Book a secure move frontend documentation
             </a>
