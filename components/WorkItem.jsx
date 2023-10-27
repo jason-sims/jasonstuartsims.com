@@ -11,7 +11,7 @@ const WorkItem = ({
   buttoncta,
 }) => {
   return (
-    <div className="max-w-md bg-[#B8D8D8] overflow-hidden shadow-md ">
+    <div className="max-w-md rounded bg-[#B8D8D8] overflow-hidden shadow-md ">
       <div className="px-3 py-4">
         <Image className="w-full rounded border" src={backgroundImg} alt="/" />
       </div>
@@ -30,7 +30,7 @@ const WorkItem = ({
 
       <div className="px-3 py-4">
         <Link href={projectUrl}>
-          <button className="w-full text-sm text-transform: uppercase rounded bg-[#3d3d3e] py-2 px-4 text-[#fff4eb] hover:bg-[#4f6367]">
+          <button className="w-full text-l text-transform: uppercase rounded bg-[#D8B8B8] py-2 px-4 text-[#1b2213] hover:bg-[#e3cdcd]">
             {buttoncta}
           </button>
         </Link>

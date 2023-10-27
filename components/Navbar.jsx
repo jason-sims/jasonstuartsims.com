@@ -39,7 +39,7 @@ export default function Navbar() {
             alt="/"
             width={50}
             height={50}
-            className="cursor-pointer"
+            className="cursor-pointer rounded hover:scale-110 hover:border-[#D8B8B8] hover:border-4 duration-300 "
           />
         </Link>
 
@@ -50,7 +50,7 @@ export default function Navbar() {
                 <Link
                   key={item.path}
                   className={
-                    'hover:border-b-2 hover:border-b-[#B8D8D8] mx-5 font-medium text-lg'
+                    'mx-5 font-medium text-lg hover:underline decoration-4 decoration-[#D8B8B8]'
                   }
                   href={item.path}
                 >
@@ -60,7 +60,10 @@ export default function Navbar() {
             })}
           </ul>
 
-          <div onClick={handleNav} className="md:hidden">
+          <div
+            onClick={handleNav}
+            className="cursor-pointer hover:scale-105 md:hidden"
+          >
             <AiOutlineMenu size={25} />
           </div>
         </div>
@@ -69,20 +72,20 @@ export default function Navbar() {
       <div
         className={
           nav
-            ? ' fixed left-0 top-0 w-1/5 min-h-full min-w-fit bg-[#F6FFF8] text-[#28282B] pl-3 pt-3 ease-in duration-500'
+            ? ' fixed left-0 top-0 w-1/5 min-h-full min-w-fit bg-[#B8D8D8] text-[#28282B] pl-3 pt-3 ease-in duration-500'
             : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
         }
       >
         <div>
           <div className="p-5 flex w-full items-center justify-between">
             <Link href="/">
-              <h1 className="pr-10 uppercase text-[#28282B] text-lg">
+              <h1 className="pr-10 uppercase text-[#28282B] text-lg hover:underline decoration-4 decoration-[#D8B8B8]">
                 Jason Sims
               </h1>
             </Link>
             <div
               onClick={handleNav}
-              className="border-2 border-[#28282B] p-2 cursor-pointer hover:scale-105 duration-300"
+              className="border-1 rounded border-[#28282B] p-2 cursor-pointer hover:scale-110 hover:border-[#D8B8B8] hover:border-2 duration-300"
             >
               <AiOutlineClose />
             </div>
@@ -95,7 +98,9 @@ export default function Navbar() {
                 return (
                   <li
                     key={item.path}
-                    className={'py-5 hover:border-b-2 hover:border-[#B8D8D8]'}
+                    className={
+                      'py-5 hover:underline decoration-4 decoration-[#D8B8B8]'
+                    }
                   >
                     <Link href={item.path}>
                       <span>{item.name}</span>
@@ -112,7 +117,7 @@ export default function Navbar() {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="border-2 border-[#28282B] p-3 cursor-pointer hover:scale-105 duration-300">
+              <div className="border-2 rounded border-[#28282B] p-3 cursor-pointer hover:scale-105 hover:border-[#D8B8B8] hover:border-4 duration-300">
                 <FaLinkedinIn />
               </div>
             </a>
@@ -122,7 +127,7 @@ export default function Navbar() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <div className="border-2 border-[#28282B] p-3 cursor-pointer hover:scale-105 duration-300">
+                <div className="border-2 rounded border-[#28282B] p-3 cursor-pointer hover:scale-105 hover:border-[#D8B8B8] hover:border-4 duration-300">
                   <FaGithub />
                 </div>
               </a>

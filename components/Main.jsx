@@ -18,7 +18,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="border-2 border-[#F5F5F5] p-3 cursor-pointer hover:scale-105 duration-300">
+              <div className="border-2 rounded p-3 cursor-pointer hover:scale-105 hover:border-[#D8B8B8] hover:border-4 duration-300">
                 <FaLinkedinIn />
               </div>
             </a>
@@ -28,7 +28,7 @@ const Main = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <div className="border-2 border-[#F5F5F5] p-3 cursor-pointer hover:scale-105 duration-300">
+                <div className="border-2 rounded p-3 cursor-pointer hover:scale-105 hover:border-[#D8B8B8] hover:border-4 duration-300">
                   <FaGithub />
                 </div>
               </a>

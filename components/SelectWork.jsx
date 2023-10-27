@@ -6,7 +6,9 @@ import WorkItem from './WorkItem';
 const SelectWork = () => {
   return (
     <div id="selectwork" className="max-w-[1240px] h-auto px-5 py-20 m-auto">
-      <h1 className="uppercase pb-8 text-center">Select Work</h1>
+      <h1 className="uppercase pb-8 text-center text-[#B8D8D8] ">
+        Select Work
+      </h1>
 
       <div className="grid gap-5 place-items-center ">
         <WorkItem

@@ -15,7 +15,7 @@ export default function BookaSecureMove() {
           <div className=" h-auto m-auto">
             <Image src={GeoVans} alt="/" />
           </div>
-          <h2 className="uppercase py-4">Background</h2>
+          <h2 className="uppercase py-4 text-[#B8D8D8] ">Background</h2>
           <p className="font-medium text-base text-justify leading-relaxed py-2">
             Since 1994, the Prisoner Escort and Custody Services (PECS) contract
             has outsourced the secure transport of prisoners across England &
@@ -51,7 +51,7 @@ export default function BookaSecureMove() {
             suppliers.
           </p>
 
-          <h2 className="uppercase py-4">Approach</h2>
+          <h2 className="uppercase py-4 text-[#B8D8D8] ">Approach</h2>
           <p className="font-medium text-base text-justify leading-relaxed py-2">
             The bid phase enabled me to rapidly grow my understanding of PECS
             service, meet a wide range of users/stakeholders working with the
@@ -163,7 +163,7 @@ export default function BookaSecureMove() {
             <Image src={Roadmap} alt="/" />
           </div>
 
-          <h2 className="uppercase py-4">Rollout</h2>
+          <h2 className="uppercase py-4 text-[#B8D8D8] ">Rollout</h2>
           <p className="font-medium text-base text-justify leading-relaxed py-2">
             The service roll out was complex with:
           </p>
@@ -206,7 +206,7 @@ export default function BookaSecureMove() {
             <Image src={ApiGuide} alt="/" />
           </div>
 
-          <h2 className="uppercase py-4">Data</h2>
+          <h2 className="uppercase py-4 text-[#B8D8D8] ">Data</h2>
           <p className="font-medium text-base text-justify leading-relaxed py-2">
             We identified key rollout metrics:
           </p>
@@ -235,7 +235,7 @@ export default function BookaSecureMove() {
             were not available or required substantial manual effort to produce.
           </p>
 
-          <h2 className="uppercase py-4">Outcome</h2>
+          <h2 className="uppercase py-4 text-[#B8D8D8] ">Outcome</h2>
           <p className="font-medium text-base text-justify leading-relaxed py-2">
             Book a secure move was rolled out to all 772 sites in under 15
             months overcoming numerous challenges, including Covid. At the time
@@ -269,24 +269,24 @@ export default function BookaSecureMove() {
             </cite>
           </blockquote>
 
-          <h2 className="uppercase py-4">Further reading</h2>
-          <p className="font-medium hover:border-b-4 text-base text-justify leading-relaxed py-2">
+          <h2 className="uppercase py-4 text-[#B8D8D8]">Further reading</h2>
+          <p className="font-medium hover:underline underline-offset-4 decoration-4 decoration-[#D8B8B8] py-2">
             <a href="https://www.andrew-millar.co.uk/hmpps.html">
               Andrew Millar outlined the design approach
             </a>
           </p>
-          <p className="font-medium hover:border-b-4 text-base text-justify leading-relaxed py-2">
+          <p className="font-medium hover:underline underline-offset-4 decoration-4 decoration-[#D8B8B8] py-2">
             <a href="https://www.gov.uk/government/news/prisoner-escort-contracts-awarded">
               Original contract award press release - GOV.UK
             </a>
           </p>
-          <p className="font-medium hover:border-b-4 text-base text-justify leading-relaxed py-2">
+          <p className="font-medium hover:underline underline-offset-4 decoration-4 decoration-[#D8B8B8] py-2">
             <a href="https://github.com/ministryofjustice/hmpps-book-secure-move-api/wiki">
               Book a secure move API documentation
             </a>
           </p>
 
-          <p className="font-medium hover:border-b-4 text-base text-justify leading-relaxed py-2">
+          <p className="font-medium hover:underline underline-offset-4 decoration-4 decoration-[#D8B8B8] py-2">
             <a href="https://github.com/ministryofjustice/hmpps-book-secure-move-frontend">
               Book a secure move frontend documentation
             </a>
