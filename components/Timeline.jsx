@@ -3,11 +3,18 @@ import React from 'react';
 const Timeline = () => {
   const timelineItems = [
     {
+      company: 'Concept | Ministry of Defence',
+      role: 'Product Manager',
+      date: 'Nov 23',
+      summary:
+        'Leading delivery of the Defence Developer Services Portal & Reuse teams.',
+    },
+    {
       company: 'Digi2al | Royal Navy',
       role: 'Lead Product Manager',
       date: 'Jun 23',
       summary:
-        'Leading delivery of the Navy Schedule Service & the Product Community of Practice.',
+        'Delivered key usability and performance improvements to the Navy Schedule Service & ran the Product Community of Practice.',
     },
 
     {
