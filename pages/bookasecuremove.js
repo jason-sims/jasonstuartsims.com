@@ -13,7 +13,14 @@ export default function BookaSecureMove() {
         <div>
           <h1 className="uppercase pb-10">Book a Secure Move</h1>
           <div className=" h-auto m-auto">
-            <Image src={GeoVans} alt="/" />
+            <Image
+              src={GeoVans}
+              alt="/"
+              style={{
+                maxWidth: '100%',
+                height: 'auto',
+              }}
+            />
           </div>
           <h2 className="uppercase py-4 text-[#B8D8D8] ">Background</h2>
           <p className="font-medium text-base text-justify leading-relaxed py-2">
@@ -160,7 +167,14 @@ export default function BookaSecureMove() {
           </p>
 
           <div className=" h-auto m-auto">
-            <Image src={Roadmap} alt="/" />
+            <Image
+              src={Roadmap}
+              alt="/"
+              style={{
+                maxWidth: '100%',
+                height: 'auto',
+              }}
+            />
           </div>
 
           <h2 className="uppercase py-4 text-[#B8D8D8] ">Rollout</h2>
@@ -203,7 +217,14 @@ export default function BookaSecureMove() {
           </p>
 
           <div className=" h-auto m-auto">
-            <Image src={ApiGuide} alt="/" />
+            <Image
+              src={ApiGuide}
+              alt="/"
+              style={{
+                maxWidth: '100%',
+                height: 'auto',
+              }}
+            />
           </div>
 
           <h2 className="uppercase py-4 text-[#B8D8D8] ">Data</h2>
