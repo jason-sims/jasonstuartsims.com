@@ -96,7 +96,7 @@ export default function Navbar() {
         </div>
         <div className="m-4 font-medium text-lg">
           <div className="flex">
-            <ul className>
+            <ul>
               {navItems.map((item, index) => {
                 return (
                   <li
