@@ -9,7 +9,15 @@ const About = () => {
       <div className="max-w-[1240px] h-auto pt-20 p-8 m-auto">
         <div className="grid lg:grid-cols-2 gap-5">
           <div className="w-8/12 h-auto m-auto sm:w-5/12 lg:w-8/12">
-            <Image className="rounded" src={AboutImg} alt="/" />
+            <Image
+              className="rounded"
+              src={AboutImg}
+              alt="/"
+              style={{
+                maxWidth: '100%',
+                height: 'auto',
+              }}
+            />
           </div>
           <div>
             <h1 className="uppercase py-8 text-[#B8D8D8]">About Jason</h1>

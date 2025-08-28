@@ -40,6 +40,10 @@ export default function Navbar() {
             width={50}
             height={50}
             className="cursor-pointer rounded hover:scale-110 hover:border-[#D8B8B8] hover:border-4 duration-300 "
+            style={{
+              maxWidth: '100%',
+              height: 'auto',
+            }}
           />
         </Link>
 
@@ -68,7 +72,6 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-
       <div
         className={
           nav
